@@ -57,7 +57,6 @@ const VideoPlayer = ({
             id='video-player'
             className='video-elem pos-absolute full-width'
             playsInline
-            muted
           ></video>
           <div className='player-overlay pos-absolute'>
             {showRaiseHandPopup ? (
