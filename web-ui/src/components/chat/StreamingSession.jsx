@@ -105,7 +105,7 @@ const StreamingSession = ({ onSelectSession }) => {
         ) : (
           currentSessions.map((session, index) => (
             <div
-              key={`${session.chatRoomArn.title}`}
+              key={`${session.chatRoomId}-${index}`}
               className="movie-card"
               onClick={() => handleSessionClick(session)}
             >
