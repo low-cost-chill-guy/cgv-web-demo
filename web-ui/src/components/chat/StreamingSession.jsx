@@ -122,8 +122,8 @@ const StreamingSession = ({ onSelectSession }) => {
               </div>
 
               <div className="movie-info">
-                <h3 className="movie-title">{session.title}</h3>
-                <p className="movie-description">{session.description}</p>
+                <h3 className="movie-title">{session.description}</h3>
+                <p className="movie-description">{session.title}</p>
                 <div className="session-time">
                   <div className="time-row">
                     <span>상영 시작</span>
